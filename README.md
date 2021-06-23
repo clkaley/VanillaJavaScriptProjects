@@ -2,4 +2,4 @@
 
 ### Color Flipper
 
-![cf](VanillaJS\ColorFlipper\cf.png)
+![cf](ColorFlipper\cf.png)
