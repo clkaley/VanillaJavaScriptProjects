@@ -2,4 +2,3 @@
 
 ### Color Flipper
 
-![cf](ColorFlipper\cf.png)
