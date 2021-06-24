@@ -3,15 +3,9 @@
 let count=0;
 
 //select value and buttons (butonları ve değerleri seç)
-//const decBTN=document.getElementByClass("decrease");
-//const resetBTN=document.getElementByClass("reset");
-//const incBTN=document.getElementByClass("increase");
+
 const btns=document.querySelectorAll('.btn');
 const value=document.getElementById('value');
-
-//btns.forEach(function(item){
- //   console.log(item)
-//});
 
 
 btns.forEach(function(item){
