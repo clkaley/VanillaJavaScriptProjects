@@ -1,0 +1,43 @@
+/* Global Styles */
+
+body{
+    background-color:hsl(210, 36%, 96%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #47597E;
+}
+
+
+
+
+/* Main */
+
+main{
+   margin-top: 250px;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+}
+
+span{
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+
+.btn{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #47597E;
+    padding: 6px 15px 6px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: #47597E;
+    letter-spacing: 2px;
+}
