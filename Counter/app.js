@@ -12,6 +12,7 @@ btns.forEach(function(item){
   item.addEventListener('click',function(e){
      // console.log(e.currentTarget);
     const style=e.currentTarget.classList;
+    
     if(style.contains('decrease')){
         count--;
     }
