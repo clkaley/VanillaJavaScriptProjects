@@ -1,0 +1,55 @@
+/*Global Styles*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:hsl(210, 36%, 96%);
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+
+/*Title*/
+
+.title{
+    
+    text-align: center;
+    font-size: 30px;
+    color: #2F5D62;
+    letter-spacing: 2px;
+}
+
+
+.underline{
+    width:8rem ;
+    height: 0.2rem;
+    background-color: #A7C4BC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Review*/
+.review{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    background-color: tomato;
+    text-align: center;
+}
+
+i{
+    color:  #A7C4BC; 
+}
+
+h4,p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
