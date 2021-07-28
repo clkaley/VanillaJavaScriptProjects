@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.hero{
+    min-height: 100vh;
+    background: url("../6-Modal/bg.JPG") center/cover no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.banner{
+    color: rgb(60, 128, 168);
+    background-color: #d5c6b1    ;
+    margin: 15px;
+    text-align: center;
+    width: 60vh;
+    height: 25vh;
+    border-radius: 5px;
+}
+
+.banner-text{
+    padding: 25px;
+}
+
+.btn-modal{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color:#d5c6b1;
+    color: rgb(60, 128, 168);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-modal:hover{
+    background-color: rgb(60, 128, 168);;
+    color:#d5c6b1;
+}
+
+ .modal-overlay{
+    color: #d5c6b1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:52vh;
+    height:23vh; 
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 282px;
+    margin-left: 175px;
+    /* display:grid;
+    place-items: center;  */
+    transition: all 0.3s linear;
+    visibility: hidden;
+    z-index: -10;
+    border-radius: 10px;
+} 
+
+/* OPEN/CLOSE MODAL */
+.open-modal {
+    visibility: visible;
+    z-index: 10;
+    background: rgb(60, 128, 168);
+    
+  }
+
+  .modal-container {
+    
+    border-radius:5px;
+    /* width: 90vw;
+    height: 30vh; */
+    max-width:1170px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+
+
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+  .close-btn:hover {
+    color: black;
+    transform: scale(1.3);
+  }
+
+@media screen and (min-width: 992px) {
+    .banner {
+        width: 60vh;
+        height: 35vh;
+        text-align: center;
+    }
+    .banner-text{
+        font-size: 20px;
+        padding: 45px;
+    }
+
+    .modal-overlay{
+        color: #d5c6b1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:55vh;
+        height:25vh; 
+        align-items: center;
+        background-color: white;
+        margin: auto;
+        margin-top: 280px;
+        margin-left: 560px;
+        /* display:grid;
+        place-items: center; */
+        transition: all 0.3s linear;
+        visibility: hidden;
+        z-index: -10;
+        border-radius: 10px;
+    } 
+    .open-modal {
+        visibility: visible;
+        z-index: 10;
+        background: rgb(60, 128, 168);
+        
+      }
+    
+      .modal-container {
+        
+        border-radius:5px;
+        /* width: 90vw;
+        height: 30vh; */
+        max-width:1170px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        position: relative;
+      }
+    
+    
+      .close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+        background: transparent;
+        border-color: transparent;
+        color: black;
+        cursor: pointer;
+        transition: var(--transition);
+      }
+      .close-btn:hover {
+        color: black;
+        transform: scale(1.3);
+      }
+    
+
+  }

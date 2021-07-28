@@ -13,3 +13,34 @@
 
 
 ### Sidebar
+
+
+### Modal
+
+
+### Question
+
+
+### Menu
+
+
+### Video
+
+
+### Scroll
+
+
+### Tabs
+
+
+### Countdown
+
+
+### LoremIpsum
+
+
+### Grocery
+
+
+### Slider
+

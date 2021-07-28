@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+
+h1,h2,h3,h4,p{
+    letter-spacing: 0.5px;
+}
+/*
+#476072 
+#334257
+*/
+
+.questions{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    margin-top: 15px; 
+}
+
+
+.questions h2{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 45px;
+    color: #548CA8;
+    margin-bottom: 60px;
+}
+
+.section-center{
+    margin-bottom: 30px;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    text-align:initial;
+    padding: 25px; 
+    background-color: rgb(252, 251, 251);
+    border-radius: 15px;
+}
+
+.question-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.question p{
+    font-size: 18px;
+    color: #334257 ;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'EB Garamond', serif;
+}
+
+
+.question-text{
+    border-top: 2px solid #548CA8;
+    
+    
+}
+.question-btn{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: #548CA8;
+}
+
+
+.question-btn:hover{
+    transform: rotate(180deg);
+}
+
+.text-hidden{
+    visibility: hidden;
+}
+
+.question-text{
+    display: none;
+}
+
+.show-text .question-text{
+    display: block;
+}
+
+.minus-icon{
+    display: none;
+}
+
+.show-text .minus-icon{
+    display: inline;
+}
+
+.show-text .plus-icon{
+    display: none;
+}
+
+
+@media screen and (max-width:350px) {
+    .section-center{
+        margin-bottom: 30px;
+        align-items: center;
+        width: 100px;
+        height: auto;
+        text-align:initial;
+        padding: 35px; 
+        background-color: rgb(252, 251, 251);
+        border-radius: 25px;
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    .section-center{
+        margin-bottom: 30px;
+        align-items: center;
+        width: 300px;
+        height: auto;
+        text-align:initial;
+        padding: 35px; 
+        background-color: rgb(252, 251, 251);
+        border-radius: 25px;
+    }
+  }
